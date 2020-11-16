@@ -1,31 +1,30 @@
-body {
-    background-color: #ccc;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #222;
-    margin-top: 100px;
+*{
+    margin:0;
+    padding:0;
+    background:#fbf6f6;
+}
+.app{
+    width:800px;
+    margin:0 auto;
+    margin-top:20px;
 }
 
-h1 {
-    margin: 15px 0;
+.app .box{
+    width: 100%;
+    border: 1px solid rgb(80 159 197);
+    padding: 15px 10px;
+    margin-bottom: 25px;
 }
 
-h2{
-    margin: 15px 0;
-    font-weight: 100;
-    font-size: 130%;
+.app .box input{
+    background:#3bc139;
+    padding:15px;
+    border:none;
+    border-radius: 50%;
+    color: #fff;
 }
 
-.soundboard {
-    background-color: #f3f3f3;
-    border-radius: 15px;
-    margin: 0 auto;
-    width: 400px;
-    text-align: center;
-    box-shadow: rgba(0,0,0, 0.1) 0 10px 10px;
-    border: 1px solid #aaa;
-}
-
-.buttom {
-    margin: 0;
-    padding: 0;
+.app .box span{
+    margin-left:10px;
+    color:rgb(235, 118, 118);
 }

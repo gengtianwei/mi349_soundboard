@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
     <link rel="stylesheet" href="style.css">
-    <title>Soundboard</title>
 </head>
-<link rel="javasheet" href="soundboard.js">
 <body>
-    <div class="soundboard">
-         <h1>Soundboard</h1>
-         <h2>Selectable sound</h2>
-         <form class="buttom">
-             <lable>Basketball hit</lable>
-             <button>Play</button>
-         </form>
-         <form class="buttom">
-            <lable>Car starting</lable>
-            <button>Play</button>
-        </form>
-        <form class="buttom">
-            <lable>Kick sound</lable>
-            <button>Play</button>
-        </form>
+    <div class="app">
+        <div class="box">
+            <input type="button" value="Play" id="Play1" >
+            <span>car_x</span>
+            <audio id="audios" src="car_x.wav"></audio>
+        </div>
+
+        <div class="box">
+            <input type="button" value="Play" id="Play2">
+            <span>kick_6</span>
+            <audio id="audios2" src="kick_6.wav"></audio>
+        </div>
+
+        <div class="box">
+            <input type="button" value="Play" id="Play3">
+            <span>baseball_hit</span>
+            <audio id="audios3" src="baseball_hit.wav"></audio>
+        </div>
+
     </div>
+    <script src="soundboard.js"></script>
 </body>
 </html>
